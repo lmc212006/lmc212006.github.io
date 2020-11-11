@@ -1,6 +1,6 @@
 html
 {
-  background-color: #80fda5
+  background-color: darkcyan;
 }
 
 @keyframes head
@@ -67,19 +67,23 @@ ul
 .navHome
 {
   position: relative;
+  float: left;
+  z-index: 10;
   padding-left: 33%;
 }
 
 .navDownload
 {
   position: relative;
-  padding-left: 38%;
+  float: left;
+  z-index: 10;
+  padding-left: 2%;
 }
 
 .navigationAbout
 {
   position: relative;
-  padding-left: 47%;
+  left: 20px;
 }
 
 .About
@@ -103,4 +107,11 @@ ul
   text-align: center;
   padding-right: 10%;
   padding-left: 10%;
+}
+
+.imgs
+{
+  position: relative;
+  padding-top: 6%;
+  align-items: center;
 }
